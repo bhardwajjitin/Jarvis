@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>Speech Recognition</title>
+        </head>
+        <body>
+            <button id="start">Start Recognition</button>
+            <button id="stop">Stop Recognition</button>
+            <p id="output"></p>
+            <script>
+                const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+                recognition.lang = 'hi';
+                recognition.continuous = true;
+                recognition.interimResults = false;
+
+                document.getElementById('start').addEventListener('click', () => {
+                    recognition.start();
+                    console.log('Recognition started');
+                });
+
+                document.getElementById('stop').addEventListener('click', () => {
+                    recognition.stop();
+                    console.log('Recognition stopped');
+                });
+
+                recognition.onresult = (event) => {
+                    const transcript = Array.from(event.results)
+                        .map(result => result[0])
+                        .map(result => result.transcript)
+                        .join('');
+                    document.getElementById('output').textContent = transcript;
+                };
+
+                recognition.onerror = (event) => {
+                    console.error('Recognition error:', event.error);
+                };
+            </script>
+        </body>
+        </html>

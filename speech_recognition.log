@@ -1,0 +1,17 @@
+2025-04-19 13:49:58,470 - INFO - ====== WebDriver manager ======
+2025-04-19 13:49:59,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:50:00,035 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:50:00,441 - INFO - There is no [win64] chromedriver "135.0.7049.95" for browser google-chrome "135.0.7049" in cache
+2025-04-19 13:50:00,441 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:50:01,368 - INFO - WebDriver version 135.0.7049.95 selected
+2025-04-19 13:50:01,372 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-19 13:50:01,372 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-19 13:50:01,590 - INFO - Driver downloading response is 200
+2025-04-19 13:50:41,849 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:50:42,414 - INFO - Driver has been saved in cache [C:\Users\pf49f\.wdm\drivers\chromedriver\win64\135.0.7049.95]
+2025-04-19 14:14:11,317 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\pf49f\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-19 14:14:11,317 - INFO - Using writeable comtypes cache directory: 'C:\Users\pf49f\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2025-04-19 14:22:49,942 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\pf49f\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-19 14:22:49,943 - INFO - Using writeable comtypes cache directory: 'C:\Users\pf49f\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2025-04-19 14:27:17,752 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\pf49f\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-19 14:27:17,752 - INFO - Using writeable comtypes cache directory: 'C:\Users\pf49f\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'

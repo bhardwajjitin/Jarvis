@@ -1,0 +1,10 @@
+{
+  "facts": [
+    "Query: hello -> Fallback Classified: general hello",
+    "Query: how are you -> Fallback Classified: general how are you",
+    "Query: what is the news -> Classified: realtime what is the news",
+    "Query: what is the weather -> Classified: realtime what is the weather",
+    "Query: tell me the location of me -> Fallback Classified: general search tell me the location of me",
+    "Query: can you open the chrome -> Classified: open the chrome"
+  ]
+}
